@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Maurício - Portfolio",
+    "description": "Uma apresentação dos meus projetos e competências enquanto profissional de informática."
+  },
+  "nav": {
+    "about": "Sobre",
+    "tools": "Ferramentas",
+    "projects": "Projectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Desenvolvedor Full-Stack",
+    "subtitle": "Desenvolvo sistemas robustos integrando interfaces em Next.js a APIs em Node.js. Foco em arquitetura limpa, integridade de dados e performance.",
+    "cta": "Ver Projectos",
+    "cv": "Baixar CV"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "p1": "Graduando em Engenharia Informática pela Universidade Eduardo Mondlane (UEM), com foco em desenvolvimento Full-Stack e infraestrutura de redes. Tenho experiência no desenvolvimento de aplicações web utilizando React, Next.js, Node.js, Express, TypeScript e PostgreSQL, aplicando boas práticas de arquitectura, validação de dados e desenvolvimento orientado à escalabilidade.",
+    "p2": "Possuo também conhecimentos em administração de sistemas Linux, virtualização, Docker, configuração de redes e tecnologias Cisco, combinando competências de engenharia de software com fundamentos de infraestrutura e operações. Entre os projectos desenvolvidos destaca-se o BorraPassar!, uma aplicação web construída com Node.js, Express, Prisma, React e Next.js, onde participei no desenho da arquitectura, implementação de funcionalidades e integração entre frontend e backend.",
+    "p3": "Procuro oportunidades de estágio e início de carreira que me permitam aprofundar competências em engenharia de software, DevOps, infraestrutura e redes, contribuindo para a construção de soluções tecnológicas robustas, seguras e escaláveis.",
+    "skills_title": "Minhas Competências"
+  },
+  "tools": {
+    "title": "Ferramentas",
+    "subtitle": "Tecnologias, frameworks e softwares que utilizo no meu ecossistema de desenvolvimento diário."
+  },
+  "projects": {
+    "title": "Projetos Recentes",
+    "subtitle": "Uma seleção de aplicações de impacto, combinando desenvolvimento fullstack, otimização de banco de dados e engenharia de software.",
+    "view_code": "Código",
+    "items": [
+      {
+        "title": "MiniJobs",
+        "description": "Plataforma digital desenhada para conectar prestadores de serviços e clientes para tarefas manuais e técnicas, com foco em usabilidade e arquitetura escalável.",
+        "tags": ["TypeScript", "React-Native + Expo", "Node.js + Express + Prisma", "PostgreSQL"]
+      },
+      {
+        "title": "BoraPassar",
+        "description": "Plataforma educacional focada no compartilhamento centralizado de materiais de exames e recursos de estudo, otimizando downloads e busca de conteúdos.",
+        "tags": ["TypeScript", "React + Next.js + Tailwind CSS", "Node.js + Express + Prisma", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Estou sempre aberto a novas oportunidades, colaborações ou discussões técnicas. Escolha a melhor plataforma para falar comigo.",
+    "cta_email": "Enviar E-mail",
+    "cta_linkedin": "Conectar no LinkedIn"
+  }
+}

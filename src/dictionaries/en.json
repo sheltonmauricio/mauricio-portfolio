@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Mauricio's Portfolio",
+    "description": "A showcase of my projects and skills as an IT professional."
+  },
+  "nav": {
+    "about": "About",
+    "tools": "Tools",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Full-Stack Developer",
+    "subtitle": "I build robust systems integrating Next.js interfaces with Node.js APIs. Focused on clean architecture, data integrity, and performance.",
+    "cta": "View Projects",
+    "cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "Computer Engineering undergraduate at Eduardo Mondlane University (UEM) with a strong interest in Full-Stack Development, DevOps, and Network Infrastructure. I build web applications using modern technologies such as React, Next.js, Node.js, Express, TypeScript, and PostgreSQL, with a focus on clean architecture, maintainable code, and scalable solutions.",
+    "p2": "Alongside software development, I have experience working with Linux systems, Docker, networking fundamentals, and Cisco technologies, allowing me to bridge the gap between application development and infrastructure operations. One of my notable projects is BorraPassar!, a full-stack web application developed with Node.js, Express, Prisma, React, and Next.js, where I contributed to system architecture, backend development, frontend implementation, and API integration.",
+    "p3": "I am currently seeking internship and entry-level opportunities where I can further develop my skills in Software Engineering, DevOps, Cloud and Infrastructure, while contributing to the design and delivery of reliable, secure, and scalable technology solutions.",
+    "skills_title": "My Skills"
+  },
+  "tools": {
+    "title": "Tools",
+    "subtitle": "Technologies, frameworks, and software I use in my daily development ecosystem."
+  },
+  "projects": {
+    "title": "Recent Projects",
+    "subtitle": "A selection of high-impact applications combining fullstack development, database optimization, and software engineering.",
+    "view_code": "Code",
+    "items": [
+      {
+        "title": "MiniJobs",
+        "description": "Digital platform designed to connect service providers and clients for manual and technical tasks, focusing on usability and scalable architecture.",
+        "tags": ["TypeScript", "React-Native + Expo", "Node.js + Express + Prisma", "PostgreSQL"]
+      },
+      {
+        "title": "BoraPassar",
+        "description": "Educational platform focused on the centralized sharing of exam materials and study resources, optimizing downloads and content discovery.",
+        "tags": ["TypeScript", "React + Next.js + Tailwind CSS", "Node.js + Express + Prisma", "PostgreSQL"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "I am always open to new opportunities, collaborations, or technical discussions. Choose the best platform to reach out.",
+    "cta_email": "Send Email",
+    "cta_linkedin": "Connect on LinkedIn"
+  }
+}
