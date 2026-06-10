@@ -1,14 +1,19 @@
 import type { NextConfig } from "next";
 
+// Substitua pelo nome EXATO do seu repositório no GitHub
+const repoName = 'mauricio-portfolio'; 
+
+// Só aplica o prefixo se estiver no ambiente de produção do GitHub Actions
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
-  // Força o Next.js a gerar HTML/CSS/JS estáticos na pasta /out
   output: 'export',
-  
-  // Desativa a otimização de imagem nativa que exige um servidor Node.js.
-  // Como o GitHub Pages é estático, usaremos imagens não otimizadas ou tratadas manualmente.
   images: {
     unoptimized: true,
   },
+  // Define o caminho base para os links internos e ficheiros estáticos
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
 };
 
 export default nextConfig;

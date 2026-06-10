@@ -6,15 +6,29 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
   const router = useRouter();
 
-  const currentLang = pathname?.split('/')[1] || 'en';
+  if (!pathname) return null;
+
+  // No GitHub Pages, o pathname é: /nome-do-repo/pt/about
+  // Localmente é: /pt/about
+  const segments = pathname.split('/').filter(Boolean);
+
+  // Verifica se o primeiro segmento é o nome do repo (produção) ou o idioma
+  const isProdPath = segments[0] && !['pt', 'en'].includes(segments[0]);
+  const langIndex = isProdPath ? 1 : 0;
+  
+  const currentLang = segments[langIndex] || 'en';
 
   const switchLanguage = (newLang: 'pt' | 'en') => {
-    if (!pathname) return;
+    const newSegments = [...segments];
+    newSegments[langIndex] = newLang;
     
-    const segments = pathname.split('/');
-    segments[1] = newLang;
+    // O router.push do Next.js já insere o basePath automaticamente, 
+    // por isso removemos o nome do repo antes de empurrar a nova rota
+    if (isProdPath) {
+      newSegments.shift();
+    }
     
-    router.push(segments.join('/'));
+    router.push('/' + newSegments.join('/'));
   };
 
   return (
