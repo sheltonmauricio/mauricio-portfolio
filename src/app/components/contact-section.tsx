@@ -35,7 +35,7 @@ const ContactSection = ({ dict }: ContactSectionProps) => {
             href={linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto bg-secondary/20 hover:bg-secondary/40 text-text/80 font-semibold font-sans px-8 py-3.5 rounded-xl border border-primary hover:border-primary-hover transition-colors duration-200"
+            className="w-full sm:w-auto bg-secondary/20 hover:bg-secondary/50 text-text/80 font-semibold font-sans px-8 py-3.5 rounded-xl border border-primary hover:border-primary-hover/80 transition-colors duration-200"
           >
             {dict.cta_linkedin}
           </a>
